@@ -1,0 +1,11 @@
+.productContainer {
+  display: flex;
+}
+.imageContainer {
+  width: 100%;
+  aspect-ratio: 4/5;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}

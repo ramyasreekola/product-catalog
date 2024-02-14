@@ -1,0 +1,26 @@
+.container {
+  max-width: 12000px;
+  margin: auto;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding: 1rem;
+  }
+}
